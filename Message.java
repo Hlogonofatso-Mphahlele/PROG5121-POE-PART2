@@ -37,7 +37,7 @@ public class Message {
         if(recipient.startsWith("+27") && recipient.length() == 12){
             return "Cellphone number stored successfully";
         }
-        return "Cell phone number incorrectly formatted or doesnt conatin the international code";
+        return "Cell phone number incorrectly formatted or doesnt contain the international code";
     }
     
     public String validateMessageLength() {
@@ -45,7 +45,7 @@ public class Message {
             return "Message ready to send";
         } else {
             int excess = messageText.length() - 250;
-            return "Message exceeds 250 charecters by " + excess + " chrarecters, please reduce the text size";
+            return "Message exceeds 250 charecters by " + excess + " charecters, please reduce the text size";
         }
         
     } 
@@ -61,7 +61,7 @@ public class Message {
         switch(optionChoice){
             case 1:
                 messagesCount++;              
-                return "Message successfully send.";
+                return "Message successfully sent.";
             case 2:
                 return "Press 0 to delete the message.";
             case 3:
