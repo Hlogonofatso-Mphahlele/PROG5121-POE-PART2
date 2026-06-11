@@ -94,7 +94,7 @@ public class Chatapp {
                             }else if(optionChoice == 3) {
                                 System.out.println(ms.sendMessages(3));
                             } else {
-                                System.out.println("Inavlid option.");
+                                System.out.println("Invalid option.");
                             }
                             count++;                            
                         } else {
@@ -106,7 +106,7 @@ public class Chatapp {
                         break;
                     case 3:
                         System.out.println("Total messages sent: " + Message.returnTotalMessages());
-                        System.out.println("Thank you for using QuickChat");
+                        System.out.println("Thank you for using QuickChat.");
                         
                         kb.close();
                         return;
