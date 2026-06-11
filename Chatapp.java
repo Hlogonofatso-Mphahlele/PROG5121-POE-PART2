@@ -68,7 +68,7 @@ public class Chatapp {
                             System.out.print("Enter recipent cell number: ");
                             String recipient = kb.nextLine();
                             
-                            System.out.print("Enter message: ");
+                            System.out.print("Enter your message: ");
                             String messageText = kb.nextLine();
                             
                             Message ms = new Message(recipient, messageText);
